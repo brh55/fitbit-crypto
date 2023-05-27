@@ -8,9 +8,11 @@ Still in progress for documentation and testing, but working.
 ```js
 import Crypto from 'fitbit-crypto/app';
 ```
-2. Import `listen()` method within your `companion` file
+2. Import `listen()` method and activate it within your `companion` file
 ```js
 import { listen } from 'fitbit-crypto/companion';
+
+listen()
 ```
 3. Create a `Text` element within your views with an Id
 4. Initiate Crypto library to create a instance to fetch, display, prices
